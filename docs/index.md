@@ -3,13 +3,14 @@
 AWS CDK is a framework to define the infrastructure in the higher programming language (e.g. java).
 Using AWS CDK, 
 * You can write the infrastructure in the same language as your service,
-* Synthesize it into AWS CloudFormation, then
+* Synthesise it into AWS CloudFormation, then
 * Provision physical resource from the resulting CloudFormation stacks.
 
 ### This project
-This project contains two compnents
+This project contains two components
 * A lambda handler that accepts a JSON object (a receipt), then save this object as an object in S3
-* CDK infrastructure code, that will eventially provision
+* CDK infrastructure code, that will eventually provision
+
   1.VPC
   2. 4 subnets (two private and two public), for redundancy
   3. Nat gateway, this is required because the lambda needs access to s#
