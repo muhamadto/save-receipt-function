@@ -10,7 +10,6 @@ Using AWS CDK,
 This project contains two components
 * A lambda handler that accepts a JSON object (a receipt), then save this object as an object in S3
 * CDK infrastructure code, that will eventually provision
-
   1. VPC
   2. 4 subnets (two private and two public), for redundancy
   3. Nat gateway, this is required because the lambda needs access to s#
