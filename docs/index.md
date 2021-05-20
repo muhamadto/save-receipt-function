@@ -38,6 +38,7 @@ Pretty simple logic
 * Accepts input,
 * Save in s3, then
 * Respond with location of the receipt and 201 status code.
+
 ```java
 public class SaveReceiptFunction implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
 
