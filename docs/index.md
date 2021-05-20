@@ -1,4 +1,4 @@
-## AWS Cloud Development Kit (AWS CDK)
+## Deploying AWS Lambda Using AWS Cloud Development Kit (AWS CDK)
 
 AWS CDK is a framework to define the infrastructure in the higher programming language (e.g. java).
 Using AWS CDK, 
