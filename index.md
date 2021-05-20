@@ -185,3 +185,19 @@ public final class Application {
 }
 ```
 
+### Deployment
+```shell
+cd /path/to/save-receipt-function
+mvn clean package  
+cd save-receipts-cdk
+cdk bootstrap --profile receipts-dev
+```
+![CDK bootstrap](CDK bootstrap.png)
+
+
+```shell
+cdk deploy --profile receipts-dev
+```
+![Resulting CF template](Resulting CF template.png)
+
+
